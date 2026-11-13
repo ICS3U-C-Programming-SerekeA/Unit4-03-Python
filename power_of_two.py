@@ -24,7 +24,7 @@ def main():
 
             # This is for loop that will run from 0 to the user input number and calculate the power of two for each number.
             for counter in range(user_num_int + 1):
-                power_of_two = counter**2
+                power_of_two = counter ** 2
 
                 # This will print the result of the power of two for each number from 0 to the user input number.
                 print("{}^2 = {}".format(counter, power_of_two))
